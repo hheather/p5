@@ -27,8 +27,7 @@ function draw() {
 
 }
 
-
-function make_tile(x, y, d) {
+function make_tile() {
     for (let i = 0; i < 20; i ++) {
         ellipse(0, 20, 15, 40);
         rotate(PI/10);
