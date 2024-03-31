@@ -1,10 +1,13 @@
 Train of thought
 
-1. I particularly like this image: http://recodeproject.com/artwork/v1n4seated-nude
-2. Reminds me of life drawing, could I use this and my life drawing sketches in some way?
-3. Can also comment on how this is a hobby of mine?
-    * Could mention how it's an activity I do with my friend who is also into drawing.
-    * Maybe I can merge this with some sort of theme around friendships / female friendships ?
-4. The female form as a piece of art
-    * The female form can be described with a series of curves/arcs
-5. Celebration of femininity, incorporating friendship in some way / sisterhood / womanhood, etc
+Censorship of the female figure
+* Censoring women's bodies on social media and other platforms implies that our bodies are inappropriate, and puts female nudity into the category of pornography. The decision to censor women's bodies is based on the male gaze and therefore stifles equality.
+
+Meta's ‘Adult Nudity and Sexual Activity Community Standard’
+“prohibits images containing female nipples, other than in specified circumstances, such as breastfeeding and gender confirmation surgery,” and is therefore based on a binary view of gender.
+
+https://help.instagram.com/477434105621119
+Post photos and videos that are appropriate for a diverse audience.
+
+How to portray the theme:
+* A series of distorted images based around the female form, which imitate the censorship.
