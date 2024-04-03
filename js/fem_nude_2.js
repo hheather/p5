@@ -14,14 +14,6 @@ function draw() {
 }
 
 function draw_figure(){
-  stroke(0);
-  // noFill()
-  // for(let i = 0; i < grid_count; i++) {
-  //   for(let j = 0; j < grid_count; j++) {
-  //     rect(i*size, j*size, size)
-  //   }
-  // }
-
   noStroke();
   fill(255, 51, 240);
 
@@ -91,7 +83,6 @@ function draw_figure(){
   arc(7*size, 10*size, d, d, 180, 270);
 
   // shading
-  
   fill(255, 138, 247);
   
   // right
@@ -127,4 +118,13 @@ function draw_figure(){
   arc(1*size, 2*size, d, d, 270, 0);
   arc(1*size, 2*size, d, d, 90, 180);
   arc(0*size, 3*size, d, d, 270, 0);
+
+  // stroke(255, 138, 247);
+  // noFill()
+  // for(let i = 0; i < grid_count; i++) {
+  //   for(let j = 0; j < grid_count; j++) {
+  //     rect(i*size, j*size, size)
+  //   }
+  // }
+
 }
