@@ -34,4 +34,8 @@ class EllipseImage {
             }
         }
     }
+
+    erode() {
+        this.img.filter(ERODE);
+    }
 }

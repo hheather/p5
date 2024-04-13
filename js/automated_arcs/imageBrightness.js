@@ -1,6 +1,6 @@
 class ImageBrightness {
 
-    constructor(img){ 
+    constructor(img){
         this.img = img;
         this.brightnessArray = this.sortedBrightnessArray();
     }
@@ -37,4 +37,3 @@ class ImageBrightness {
         };
     }
 }
-

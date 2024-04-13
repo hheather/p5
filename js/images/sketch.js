@@ -1,5 +1,4 @@
 let img;
-let img2;
 let images = [];
 let tileSize = 50;
 let imageSize = 400;
@@ -7,12 +6,11 @@ let i = 0;
 
 function preload(){
     img = loadImage('assets/dora_1.png');
-    img2 = loadImage('assets/dora_2.png');
+    img.filter(ERODE);
 }
 
 function setup(){
     createCanvas(400, 400);
-    img.filter(ERODE);
     setUpImages();
 }
 
@@ -29,11 +27,11 @@ function mousePressed() {
 }
 
 function setUpImages() {
-    let colourMap1 = colours(color(255, 0, 235), color(255, 235, 249));
-    let colorMap2 = colours(color(0, 216, 255), color(210, 248, 255));
+    let colourMap1 = colours(color(255, 0, 235), color(255, 255, 255));
+    let colorMap2 = colours(color(255, 255, 255), color(255, 0, 235));
 
     ellipseImage = new EllipseImage(img, imageSize, tileSize, colourMap1);
-    ellipseImage2 = new EllipseImage(img2, imageSize, tileSize, colorMap2);
+    ellipseImage2 = new EllipseImage(img, imageSize, tileSize, colorMap2);
 
     images.push(ellipseImage);
     images.push(ellipseImage2);
