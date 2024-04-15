@@ -1,7 +1,8 @@
 class ImageBrightness {
 
-    constructor(img){
+    constructor(img, coloursMap){
         this.img = img;
+        this.coloursMap = coloursMap;
         this.brightnessArray = this.sortedBrightnessArray();
     }
     
